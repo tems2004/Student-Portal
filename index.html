@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <div id="page">
+    <div id="wholepage">
+   <h1>Tutorial Student Registration Form</h1> 
+   <details>
+   <summary id="basic">Basic Information</summary>
+   <p>When Filling out the Registration Form, Please ensure you provide accurate and complete information. About your Full name, Email Address, Password, and your username. Because any mistake done here cannot be corrected again. Note: Double Check your Email  Address, use strong, unique password and read the terms and conditions before submitting. Thank You.</p>
+</details>
+
+<form action="script.php">
+    <!-- <h4>Full Name:</h4> -->
+    <div class="contanier">
+    <div class="form1">
+    <input type="text" name="Firstname">
+    <label for="firstname">First Name</label>
+</div>
+<div class="form1">
+   <input type="text" name="middlename">
+   <label for="firstname">Middle Name</label>
+</div>
+<div class="form1">
+    <input type="text" name="Lastname">
+    <label for="firstname">Last Name</label>
+</div>
+<div class="secondform">
+    <label for="student">Student Number</label>
+    <input type="number" placeholder="+07865554">
+</div>
+<div class="secondform">
+    <label for="date">Date of Birth</label>
+    <input type="date">
+</div>
+<div class="secondform">
+    <label for="password">Password</label>
+    <input type="password" placeholder="password">
+</div>
+<div class="secondform">
+    <label for="year">Year Level</label>
+    <input type="text" placeholder="year20..">
+</div>
+<div class="secondform">
+    <label for="topic">Instructional Topic</label>
+    <select name="Please Select">
+        <option value="0" selected disabled>Please Select</option>
+        <option value="Math">Mathematics</option>
+        <option value="Compu">Computer Science</option>
+        <option value="Natrual">Natural Sciences</option>
+        <option value="Visual">Visual Arts</option>
+        <option value="Creative">Creative Writing</option>
+        <option value="Project">Project Management</option>
+        <option value="Data">Data Science</option>
+        <option value="Cyber">Cyber Security</option>
+        <option value="Webs">Frontend dev</option>
+        <option value="Wesb">Backend dev</option>
+        <option value="Wessb">Full Stack dev</option>
+        <option value="Webee">Data Analysis</option>
+        <option value="Webee">CSS</option>
+        <option value="Web">HTML</option>
+        <option value="Web">Java Script</option>
+    </select>
+</div>
+<div class="secondform">
+<label for="email">Email Address</label>
+    <input type="email" placeholder="temiall@gmail.com">
+</div>
+<div class="secondform">
+    <label for="number">Mobil Number</label>
+    <input type="number" placeholder="+07865554">
+</div>
+<div class="secondform">
+    <label for="address">Home Address</label>
+    <input type="text">
+</div>
+<!-- <div class="secondform">
+    <input type="text" name="city">
+     <label for="city">City</label>
+</div> -->
+<div class="secondform">
+    <input type="text" name="citypos">
+       <label for="citypos">Postal/Zip code</label>
+</div>
+<div class="secondform">
+    <label for="photo">Student Photo</label>
+    <input type="file">
+</div>
+<div class="secondform">
+<label for="Background">Academic Background</label>
+     <select name="Please Select">
+        <option value="0" selected disabled>Please Select</option>
+        <option value="Math">High School Diploma</option>
+        <option value="Compu">Undergraduate</option>
+        <option value="Natrual">Postgraduate</option>
+     </div>
+    <div id="sform">
+        <label for="submit"> Submit</label>
+          <input type="submit" value="Submit"
+          style="background-color: red; color: white; width:100px; height: 30px; border-radius: 10px; margin: 10px auto;">
+        </div>
+    </div>
+        </body>
+</html>
